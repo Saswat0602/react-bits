@@ -8,7 +8,7 @@ interface FullPageSectionProps {
 
 const FullPageSection: React.FC<FullPageSectionProps> = ({ title }) => {
   return (
-    <section className="h-screen bg-black-100 flex items-center justify-center text-white text-center">
+    <section className="h-screen bg-black-1 flex items-center justify-center text-white text-center">
       <div>
         <h2 className="text-4xl font-semibold">{title}</h2>
         <p className="mt-4 text-zinc-400">This section takes the full height of the screen!</p>

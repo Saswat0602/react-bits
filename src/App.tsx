@@ -1,4 +1,5 @@
 import BallPitcomponent from "./components/BallPitcomponent";
+import Disortion from "./components/Disortion";
 import FullPageSection from "./components/FullPageSection";
 import SplashCursor from "./react-bits/SplashCursor"
 
@@ -9,6 +10,8 @@ const App = () => {
       <main className="p-8">
         <h1 className="text-3xl font-bold">React Bits Splash Cursor</h1>
         <p className="mt-4 text-zinc-300">Now with a dark background using Tailwind!</p>
+
+        <Disortion />
         <FullPageSection title="Section 1" />
         <BallPitcomponent />
       </main>
